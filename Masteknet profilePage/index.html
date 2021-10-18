@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masteknet</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Favicon icon -->
+    <link rel="icon" href="https://mastekgroup.sharepoint.com/_catalogs/masterpage/Masteknet/images/favicon.ico" type="image/x-icon"/>
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  </head>
+<body>
+     <!-- Header -->
+    
+         <div class="container">
+         <!-- navbar -->
+          <nav class="navbar navbar-expand-sm bg-white text-dark">
+            <a class="navbar-brand" href="https://mastekgroup.sharepoint.com/">
+              <img src="https://mastekgroup.sharepoint.com/_catalogs/masterpage/Masteknet/images/masteklogo.png" alt="image not found" />
+            </a>
+            <form class="form-inline">
+              <input class="form-control mr-sm-2" type="text" placeholder="Search Everything">
+            </form>
+           
+            <!-- icons -->
+            <ul class="navbar-nav">
+              <li class="list-item">
+                <a class="icon-bell" target="_blank" href="https://ess.masteknet.com/Mastek03/CommonApp/YourAttention.aspx">
+                <i class="far fa-bell"></i>
+                <span id="dvAlertsCount"></span>
+                </a>
+              </li>
+              <li class="list-item">
+                <a class="icon-calendar" target="_blank" href="#">
+                  <i class="fa fa-calendar" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-item">India</li>
+            </ul>
+          </nav>
+           <!--
+             Nav
+           -->
+        <div id="nav">
+          <div class="btn-group">
+            <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+              Applications
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Link 1</a>
+              <div class="dropdown-divider"></div>
+              <h5 class="dropdown-header text-dark"><b>My Requests</b></h5>
+              <a class="dropdown-item" href="#">Leave Application</a>
+              <a class="dropdown-item" href="#">SPR-New</a>
+              <a class="dropdown-item" href="#">SPR-Old</a>
+              <a class="dropdown-item" href="#">Meeting Room Booking</a>
+              <a class="dropdown-item" href="#">Mumbai-SEEPZ Gatepass</a>
+              <a class="dropdown-item" href="#">Training Calendar</a>
+              <a class="dropdown-item" href="#">Helpdesk Tickets</a>
+              <a class="dropdown-item" href="#">Company Bus Registration</a>
+              <a class="dropdown-item" href="#">Travel Desk</a>
+              <a class="dropdown-item" href="#">Customer Visit Form</a>
+              <a class="dropdown-item" href="#">Workforce Information & Planning</a>
+              <h5 class="dropdown-header text-dark"><b>Onsite Mastekeers Application</b></h5>
+              <a class="dropdown-item" href="#">UK-Expense Claim</a>
+              <a class="dropdown-item" href="#">UK-Expense Claim-Old</a>
+              <a class="dropdown-item" href="#">UK-Payslip</a>
+              <a class="dropdown-item" href="#">UK-Travel & Guest House</a>
+              <a class="dropdown-item" href="#">UK-Helpdesk</a>
+              <a class="dropdown-item" href="#">UK-Bank Account Details</a>
+              <a class="dropdown-item" href="#">UK Pension Opt in/Opt Out</a>
+            </div>
+          </div>
+          
+          <div class="btn-group">
+            <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+              Corporate Functions
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="">Company Secretary</a>
+              <a class="dropdown-item" href="">Corporate Communication</a>
+              <a class="dropdown-item" href="">Corporate Quality Management</a>
+              <a class="dropdown-item dropdown-toggle" data-toggle="dropdown" href="#">Digital Catalyst Team</a>
+              <!-- dropdown -->
+              <div class="dropdown-menu">
+              <a class="dropdown-item" href="https://mastekgroup.sharepoint.com/CorpFunctions/Pages/Digital_Catalyst_Team/Applications.aspx">Applications & Platforms</a>
+              <a class="dropdown-item" href="https://mastekgroup.sharepoint.com/CorpFunctions/Pages/Digital_Catalyst_Team/Infrastructure.aspx">Infrastructure Services</a>
+              <a class="dropdown-item" href="https://mastekgroup.sharepoint.com/CorpFunctions/Pages/Digital_Catalyst_Team/InformationSecurity.aspx">Information Security</a>
+              </div>
+              
+              <a class="dropdown-item" href="https://mastekgroup.sharepoint.com/CorpFunctions/Pages/Facilities%20and%20Logistics/default.aspx">Facilities and Logistics</a>
+              <a class="dropdown-item" href="https://mastekgroup.sharepoint.com/CorpFunctions/Pages/Finance%20and%20Accounts/default.aspx">Finance and Accounts</a>
+              <a class="dropdown-item" href="https://mastekgroup.sharepoint.com/CorpFunctions/Pages/Human%20Resource/default.aspx">Human Resource</a>
+              <a class="dropdown-item dropdown-toggle" data-toggle="dropdown" href="#">Legal & Compliance</a>
+              <div class="dropdown-menu">
+              <a class="dropdown-item">Anti-Bribery Statement</a>
+              <a class="dropdown-item">Contract Management System</a>
+              <a class="dropdown-item">Insider Trading Code</a>
+              <a class="dropdown-item">Legal & Compliance Portal</a>
+              <a class="dropdown-item">Prevention of Sexual Harrassment (POSH)</a>
+              </div>
+            </div>
+          </div>
+        
+          <div class="btn-group">
+            <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+              Collaboration Portals
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Data Vault</a>
+              <a class="dropdown-item" href="#">DigiLearn</a>
+              <a class="dropdown-item" href="#">Enterprise Agile Portal</a>
+              <a class="dropdown-item" href="#">Information Repository</a>
+              <a class="dropdown-item" href="#">Knowledge Management (KVault)</a>
+              <a class="dropdown-item" href="#">Mastek Digital Vault</a>
+              <a class="dropdown-item" href="#">Mastek Foundation</a>
+              <a class="dropdown-item" href="#">Mastek Video Repository</a>
+              <a class="dropdown-item" href="#">Oracle Learnings Portal (OracleDocs)</a>
+              <a class="dropdown-item" href="#">Service Line Portal</a>
+              <a class="dropdown-item" href="#">vRooms</a>
+            </div>
+          </div>
+        
+          <div class="btn-group">
+            <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+              External Links
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">CRM Dynamics Sales</a>
+              <a class="dropdown-item" href="#">Microsoft Teams</a>
+              <a class="dropdown-item" href="#">Outlook-Email</a>
+              <a class="dropdown-item" href="#">SAP Enterprise Portal</a>
+              <a class="dropdown-item" href="#">Yammer</a>
+            </div>
+          </div>
+        
+          <div class="btn-group">
+            <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+              About Mastek
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Global Presence</a>
+              <div class="dropdown-menu">
+              <a class="dropdown-item">Mastek India</a>
+              <a class="dropdown-item">Mastek UK</a>
+              <a class="dropdown-item">Mastek North America</a>
+              <a class="dropdown-item">Mastek Foundation</a>
+              <a class="dropdown-item">Evosys</a>
+              </div>
+              <a class="dropdown-item" href="#">Mastek Zone</a>
+            </div>
+          </div>
+        
+          <div class="btn-group">
+            <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+              Support
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Global Helpdesk</a>
+              <a class="dropdown-item" href="#">Emergency Contacts</a>
+            </div>
+          </div>
+        </div>
+     
+    
+</body>
+</html>
